@@ -1,0 +1,10 @@
+[package]
+name = "garmin_translator"
+version = "0.1.0"
+authors = ["hekrause <hekrause@htwg-konstanz.de>"]
+
+[dependencies]
+nix = "0.8.1"
+[dependencies.rusqlite]
+version = "0.11.0"
+features = ["bundled"]
